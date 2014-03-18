@@ -3,8 +3,8 @@ var users_component = express();
 var path = require('path');
 
 //REQUIRE SERVICES
-var view_service = require(path.join(__dirname, '/services/view'));
-var controller_service = require(path.join(__dirname, '/services/controller'));
+var view_service = require('ssmvc-view-users');
+var controller_service = require('ssmvc-controller-users');
 
 //INJECT THE CONTROLLER INTO THE VIEW
 view_service.use('/controller', controller_service);

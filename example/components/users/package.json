@@ -1,5 +1,5 @@
 {
-  "name": "ssmvc-application-example",
+  "name": "ssmvc-component-users",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,9 @@
     "Phil Spitler <phil@softwarehappens.com>"
   ],
   "dependencies": {
-    "express": "latest"
+    "express": "latest",
+    "ssmvc-controller-users": "software-happens/service-side-mvc/tree/master/example/services/controller/users",
+    "ssmvc-view-users": "software-happens/service-side-mvc/tree/master/example/services/view/users-ember"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
