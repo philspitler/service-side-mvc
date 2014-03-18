@@ -1,0 +1,18 @@
+{
+  "name": "ssmvc-users-view-example-ember",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "private": "true",
+  "authors": [
+    "Phil Spitler <phil@softwarehappens.com>"
+  ],
+  "dependencies": {
+    "express": "latest"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
