@@ -9,7 +9,7 @@
   ],
   "dependencies": {
     "express": "latest",
-    "ssmvc-component-users": "software-happens/service-side-mvc/tree/master/example/components/users"
+    "ssmvc-component-users": "https://github.com/software-happens/service-side-mvc/tree/master/example/components/users"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

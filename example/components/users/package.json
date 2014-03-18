@@ -9,8 +9,8 @@
   ],
   "dependencies": {
     "express": "latest",
-    "ssmvc-controller-users": "software-happens/service-side-mvc/tree/master/example/services/controller/users",
-    "ssmvc-view-users": "software-happens/service-side-mvc/tree/master/example/services/view/users-ember"
+    "ssmvc-controller-users": "https://github.com/software-happens/service-side-mvc/tree/master/example/services/controller/users",
+    "ssmvc-view-users": "https://github.com/software-happens/service-side-mvc/tree/master/example/services/view/users-ember"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
