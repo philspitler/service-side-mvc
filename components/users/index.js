@@ -12,14 +12,14 @@ var users = [
 ];
 
 //REQUIRE SERVICES
-var view = require(path.join(__dirname, '/users'));
+var view = require(path.join(__dirname, '/view'));
 var controller = require(path.join(__dirname, '/controller'));
 
 //INJECT THE MODEL INTO THE CONTROLLER
 controller.set('model', users);
 
 //INJECT THE CONTROLLER INTO THE VIEW
-view.use('/controller', controller);
+view.use('controller', controller);
 
 //SETUP THE SERVICES AS ROUTES
 users_component.use('/users', view);

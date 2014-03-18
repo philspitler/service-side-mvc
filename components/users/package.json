@@ -1,5 +1,5 @@
 {
-  "name": "ssmvc-example",
+  "name": "ssmvc-users",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
@@ -8,15 +8,11 @@
     "Phil Spitler <phil@softwarehappens.com>"
   ],
   "dependencies": {
-    "express": "latest",
-    "ssmvc-users": "https://github.com/software-happens/service-side-mvc/tree/master/example/components/users"
+    "express": "latest"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "less": "latest"
-  }
+  "license": "ISC"
 }

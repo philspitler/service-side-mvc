@@ -1,5 +1,6 @@
 var express = require('express');
 var users_view_service = express();
+var controller = users_view_service.get('controller');
 
 users_view_service.use(express.static(__dirname));
 
